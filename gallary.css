@@ -1,0 +1,17 @@
+.gallary{
+margin:10px 50px;
+}
+
+.gallary img{
+width:230px;
+padding:5px;
+filter:grayscale(100%);
+transition:1s;
+
+}
+
+.gallary img:hover {
+filter:grayscale(0);
+transform:scale(1.1);
+}
+
